@@ -1,0 +1,115 @@
+        .bannerQC {
+            margin-top: 140px;
+            margin-left: 200px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .Sel {
+            display: grid;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        .selection {
+            margin-top: 10px;
+            margin-left: auto;
+            display: grid;
+            gap: 10px 5px;
+            grid-template-areas: ". . . . . . .";
+        }
+        
+        .item1 a {
+            float: left;
+            border: solid 1px black;
+        }
+        
+        .item1 img {
+            width: 159.9px;
+            height: 40px;
+        }
+        
+        .opt {
+            padding: 20px;
+            grid-gap: 10px;
+            display: grid;
+            grid-template-areas: 'option product';
+        }
+        
+        .opt1 {
+            grid-area: option;
+        }
+        
+        .pro1 {
+            grid-area: product;
+        }
+        
+        .button {
+            text-align: center;
+            width: 300px;
+            height: 50px;
+            display: inline-block;
+            padding: 10px;
+            background-color: ghostwhite;
+            text-decoration: none;
+            color: white;
+            transition: color 0.5s ease;
+            border-right: solid red 10px;
+        }
+        
+        .button:hover {
+            color: red;
+        }
+        
+        .hvr-sweep-to-left {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            position: relative;
+            -webkit-transition-property: color;
+            transition-property: color;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+        }
+        
+        .hvr-sweep-to-left:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: red;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+        }
+        
+        .hvr-sweep-to-left:hover,
+        .hvr-sweep-to-left:focus,
+        .hvr-sweep-to-left:active {
+            color: black;
+        }
+        
+        .hvr-sweep-to-left:hover:before,
+        .hvr-sweep-to-left:focus:before,
+        .hvr-sweep-to-left:active:before {
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+        }

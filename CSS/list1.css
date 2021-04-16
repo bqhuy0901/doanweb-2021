@@ -1,0 +1,134 @@
+.title {
+    border: 5px solid rgba(192, 192, 192, 0.3);
+    background-color: ghostwhite;
+    color: black;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+}
+
+.box {
+    border-radius: 12px;
+    background-color: ghostwhite;
+    padding: 25px;
+    margin: 20px;
+}
+
+.box1 {
+    border: 5px solid ghostwhite;
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
+}
+
+.button {
+    background-color: ghostwhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    float: right;
+    width: 350px;
+}
+
+.button:hover {
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.15), 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-item1 {
+    background-color: ghostwhite;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.bannerqc {
+    width: auto;
+}
+
+.pro {
+    column-count: 3;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.size {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    margin-left: auto;
+}
+
+.detail {
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 150px;
+    margin: auto;
+}
+
+.qtydiv label {
+    display: block;
+    margin-bottom: 12px;
+    letter-spacing: 2.8px;
+    color: #747a7b;
+}
+
+.qtydiv .btnqty {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    font-size: 25px;
+    padding: 5px;
+    line-height: 5px;
+}
+
+.qtydiv .btnqty.qtyminus {
+    margin-right: 8px;
+}
+
+.qtydiv .btnqty.qtyplus {
+    margin-left: 8px;
+}
+
+.qtydiv .quantity-input {
+    border: none;
+    border: none;
+    padding: 8px;
+    text-align: center;
+    width: 50px;
+    outline: none;
+    display: inline-block;
+}
+
+.qtydiv {
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 10px;
+}
